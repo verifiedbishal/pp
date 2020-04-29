@@ -18,7 +18,8 @@ button{
 .learn__more{
     padding: 6px 10px;
     font-size: 16px;
-    border: 1px solid #ebebeb;
+    border: 1px solid #c4bdbd;
+    border-radius: 2px;
     cursor: pointer;
 }
 .learn__more--light{
