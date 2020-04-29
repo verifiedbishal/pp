@@ -78,8 +78,8 @@
 
 @media(max-width : 700px){
     .materials__buffer--single{
-        width: 45%;
-        margin: 10px 5%;
+        width: 40%;
+        margin: 10px auto;
         height: auto;
     }
     .buffer__head a h2{
