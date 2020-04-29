@@ -30,6 +30,10 @@ button{
     background-color: rgb(15, 17, 22);
     color: #fff;
 }
+.learn__more--main{
+    background-color: #DE05BC;
+    color: #fff;
+}
 .learn__more i{
     padding-left: 4px;
 }
@@ -38,7 +42,7 @@ button{
     transition: .5s;
 }
 .color__main{
-    color: rgb(27, 4, 41);
+    color: #DE05BC;
 }
 .color__black{
     color: #000;
@@ -501,7 +505,7 @@ header{
     height: 32px;
     border: 1px solid #ebebeb;
     border-radius: 4px;
-    outline-color: rgb(0, 195, 255);
+    outline-color: #DE05BC;
 }
 .form__name input{
     width: 515px;
