@@ -88,6 +88,7 @@ header{
     font-size: 14px;
     letter-spacing: 1px;
     color: rgb(7, 6, 24);
+    text-align: center;
 }
 
 .header__right{
@@ -192,7 +193,11 @@ header{
     background-color: #e2e2e2;
     border: 1px solid rgb(209, 209, 209);
 }
-.main__arrow i{
+.main__arrow a{
+    text-decoration: none;
+    color: rgb(54, 43, 51);
+}
+.main__arrow a i{
     font-size: 44px;
 }
 .main__arrow:active{
@@ -318,7 +323,7 @@ header{
 }
 .showcase__single{
     padding: 10px;
-    border: 1px solid rgba(20, 6, 58, 0.425);
+    border: 1px solid #ebebeb;
     height: 220px;
     width: 340px;
     display: flex;
@@ -341,8 +346,8 @@ header{
     text-align: left;
 }
 .showcase__single:nth-child(even){
-    background-color: rgba(20, 6, 58, 0.425);
-    color: #fff;
+    background-color: #ebebeb;
+    color: #000;
     border: none;
 }
 .showcase__single:nth-child(odd){
@@ -367,20 +372,20 @@ header{
 @media(max-width : 860px){
     .showcase__single{
         width: 45%;
-        border: 1px solid rgba(20, 6, 58, 0.425);
+        border: 1px solid #ebebeb;
     }
     .showcase__single:nth-child(2){
-        background-color: rgba(20, 6, 58, 0.425);
+        background-color: #ebebeb;
         color: #fff;
         border: none;
     }
     .showcase__single:nth-child(3){
-        background-color: rgba(20, 6, 58, 0.425);
+        background-color: #ebebeb;
         color: #fff;
         border: none;
     }
     .showcase__single:nth-child(6){
-        background-color: rgba(20, 6, 58, 0.425);
+        background-color: #ebebeb;
         color: #fff;
         border: none;
     }
@@ -402,14 +407,14 @@ header{
         width: 90%;
     }
     .showcase__single:nth-child(even){
-        background-color: rgba(20, 6, 58, 0.425);
+        background-color: #ebebeb;
         color: #fff;
-        border: 1px solid rgba(20, 6, 58, 0.425);
+        border: 1px solid #ebebeb;
     }
     .showcase__single:nth-child(odd){
         background-color: #fff;
         color: #000;
-        border: 1px solid rgba(20, 6, 58, 0.425);
+        border: 1px solid #ebebeb;
     }
     .showcase__single p{
         height: auto;
