@@ -6,19 +6,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, rgba(209, 9, 209, 0.719),rgba(150, 33, 58, 0.473));
+    background-image: url(assets/img/library.jpg);
     padding-top: 100px;
 }
 .material__box h2{
     font-size: 50px;
     text-align: center;
-    color: rgb(4, 3, 22);
+    color: rgb(255, 255, 255);
     letter-spacing: 2px;
     line-height: 2;
 }
 .material__box p{
     text-align: center;
-    color: rgb(34, 35, 39);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     width: 80%;
     margin: 0 10%;
@@ -89,5 +89,85 @@
         font-size: 14px;
         padding: 5px;
         color: rgba(53, 54, 65, 0.884);
+    }
+}
+
+
+
+
+/*--------------------*/
+
+
+.buffer__box{
+    width: 90%;
+    margin: 20px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.buffer__box--single{
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+.buffer__box--single h2{
+    padding: 5px 0;
+    font-size: 24px;
+    color: #0D219F;
+    letter-spacing: 1px;
+}
+.buffer__box--single h2 span{
+    font-weight: 400;
+    font-size: 15px;
+    font-style: oblique;
+    color: rgb(100, 100, 119);
+}
+.buffer__box--single ul{
+    padding: 10px 0;
+    margin-left: 20px;
+}
+.buffer__box--single ul li{
+    padding: 5px 0;
+}
+.buffer__box--single ul li a{
+    text-decoration: none;
+    color: #12111b;
+    font-size: 18px;
+}
+.buffer__box--single ul li a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width : 1200px){
+    .buffer__box{
+        width: 96%;
+        margin: 20px 2%;
+    }
+    .buffer__box--single{
+        width: 45%;
+        padding: 10px;
+    }
+}
+
+@media(max-width : 1024px){
+    .buffer__box{
+        width: 100%;
+        margin: 10px 0;
+        border: 1px solid transparent;
+    }
+    .buffer__box--single{
+        width: 90%;
+        margin: 10px 5%;
+        padding: 10px;
+    }
+    .buffer__box--single h2{
+        font-size: 20px;
+    }
+    .buffer__box--single ul li a{
+        font-size: 16px;
     }
 }

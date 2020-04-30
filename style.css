@@ -25,7 +25,7 @@ body{
     width: 70%;
     margin: 0 15%;
     text-align: center;
-    color: #DE05BC;
+    color: #0D219F;
     letter-spacing: 2px;
 }
 button{
@@ -38,27 +38,42 @@ button{
     border-radius: 2px;
     cursor: pointer;
 }
+.learn__more--big{
+    padding: 8px 12px;
+    font-size: 18px;
+    border: 1px solid #c4bdbd;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .learn__more--light{
     background-color: #fff;
     color: #000;
+}
+.learn__more--light:hover{
+    background-color: #ebebeb;
 }
 .learn__more--dark{
     background-color: rgb(15, 17, 22);
     color: #fff;
 }
 .learn__more--main{
-    background-color: #DE05BC;
+    background-color: #0D219F;
+    border: 1px solid transparent;
     color: #fff;
+}
+.learn__more--main:hover{
+    background-color: rgba(13, 33, 159, 0.815);
+    transition: .5s;
 }
 .learn__more i{
     padding-left: 4px;
 }
 .learn__more:hover i{
-    padding-left: 10px;
+    padding-left: 8px;
     transition: .5s;
 }
 .color__main{
-    color: #DE05BC;
+    color: #0D219F;
 }
 .color__black{
     color: #000;
@@ -269,13 +284,12 @@ header{
     justify-content: space-around;
 }
 .work__content--single{
-    border: 1px solid transparent;
+    border: 1px solid #ebebeb;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(235, 233, 233, 0.37);
     width: 300px;
     height: 300px;
     margin: 10px 20px;
-    background-color: #ebebeb;
+    background-color: #fff;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -284,6 +298,9 @@ header{
     align-self: start;
     padding: 20px;
     text-decoration: none;
+}
+.work__content--single:hover{
+    box-shadow: 0 4px 6px rgba(207, 206, 206, 0.514);
 }
 .work__content--single h2{
     text-align: center;
@@ -342,6 +359,7 @@ header{
     border: 1px solid #ebebeb;
     height: 220px;
     width: 340px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -361,15 +379,6 @@ header{
     overflow: hidden;
     text-align: left;
 }
-.showcase__single:nth-child(even){
-    background-color: #ebebeb;
-    color: #000;
-    border: none;
-}
-.showcase__single:nth-child(odd){
-    background-color: #fff;
-    color: #000;
-}
 
 @media(max-width : 1035px){
     .showcase__single{
@@ -388,49 +397,12 @@ header{
 @media(max-width : 860px){
     .showcase__single{
         width: 45%;
-        border: 1px solid #ebebeb;
-    }
-    .showcase__single:nth-child(2){
-        background-color: #ebebeb;
-        color: #fff;
-        border: none;
-    }
-    .showcase__single:nth-child(3){
-        background-color: #ebebeb;
-        color: #fff;
-        border: none;
-    }
-    .showcase__single:nth-child(6){
-        background-color: #ebebeb;
-        color: #fff;
-        border: none;
-    }
-    .showcase__single:nth-child(1){
-        background-color: #fff;
-        color: #000;
-    }
-    .showcase__single:nth-child(4){
-        background-color: #fff;
-        color: #000;
-    }
-    .showcase__single:nth-child(5){
-        background-color: #fff;
-        color: #000;
     }
 }
 @media(max-width : 600px){
     .showcase__single{
-        width: 90%;
-    }
-    .showcase__single:nth-child(even){
-        background-color: #ebebeb;
-        color: #fff;
-        border: 1px solid #ebebeb;
-    }
-    .showcase__single:nth-child(odd){
-        background-color: #fff;
-        color: #000;
-        border: 1px solid #ebebeb;
+        width: 45%;
+        margin: 5px auto;
     }
     .showcase__single p{
         height: auto;
@@ -526,7 +498,7 @@ header{
     height: 32px;
     border: 1px solid #ebebeb;
     border-radius: 4px;
-    outline-color: #DE05BC;
+    outline-color: #0D219F;
 }
 .form__name input{
     width: 515px;
@@ -618,11 +590,13 @@ header{
     font-size: 50px;
     line-height: 1.5;
     text-align: center;
+    padding: 10px 0;
 }
 .touch__box p{
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
+    padding: 10px 0;
 }
 
 
