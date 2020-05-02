@@ -90,20 +90,24 @@ ioe16 = [
     {"name" : ["Thermodynamics By Yunus And Michael","https://drive.google.com/open?id=1qPebXWbOxWNrduhrH3cpEOKUhvBWe6Sn"]}
 ];
 
-    var aa = [ioe1,ioe2,ioe3,ioe4,ioe5,ioe6,ioe7,ioe8,ioe9,ioe10,ioe11,ioe12,ioe13,ioe14,ioe15,ioe16];
-    for(let i = 1; i <= aa.length; i++){
-        var data = document.getElementById("myD" + i);
-        var m = document.createElement("h2");
-        m.innerHTML = '<h2>' + h[i].text + '<span>[Click to view / download]</span></h2>';
-        data.appendChild(m);
+
+
+
+let all =[
+    {ioe :  [ioe1,ioe2,ioe3,ioe4,ioe5,ioe6,ioe7,ioe8,ioe9,ioe10,ioe11,ioe12,ioe13,ioe14,ioe15,ioe16]}
+];
+
+for(let j = 1; j <= all[0].ioe.length; j++){
+    var data = document.getElementById("myD" + j);
+    var m = document.createElement("h2");
+    m.innerHTML = '<h2>' + h[j].text + '<span>[Click to view / download]</span></h2>';
+    data.appendChild(m);
+    var dataAll = document.getElementById("myD" + j);
+    for(let k = 0; k < all[0].ioe[j - 1].length ; k++){
+        var el2 = document.createElement("li");
+        el2.innerHTML = '<a href = \"'  + all[0].ioe[j - 1][k].name[1] + ' \">' + all[0].ioe[j - 1][k].name[0] + '</a>';
+        dataAll.appendChild(el2);
     }
-    for(let j = 1; j <= aa.length; j++){
-        var dataAll = document.getElementById("myD" + j);
-        for(let k = 0; k < aa[j - 1].length ; k++){
-            var el2 = document.createElement("li");
-            el2.innerHTML = '<a href = \"'  + aa[j - 1][k].name[1] + ' \">' + aa[j - 1][k].name[0] + '</a>';
-            dataAll.appendChild(el2);
-        }
-    }
+}
 
 
