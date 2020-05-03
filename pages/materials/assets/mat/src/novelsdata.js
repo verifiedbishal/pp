@@ -42,18 +42,9 @@ let h = [
             {"name" : ["Super Freakonomics","https://drive.google.com/open?id=1PLYR0ji8wAIyzWWZm_BlZtS8E2D696W5"]},
             {"name" : ["The Audacity Of Hope","https://drive.google.com/open?id=1fd8SIFvPAqF-vpUMCC63pwHHAjOAG-6B"]},
             {"name" : ["The Universal Force","https://drive.google.com/open?id=1katV-sMIVLV8TFkgnpiC3GsOAYxJ1cgp"]}
-        ];
-        novel6 = [
-            
-        ];
-        novel7 = [
-            
-        ];
-        novel8 = [
-            
-        ];
+        ];        
         let all = [
-            {"novel" : [novel1,novel2,novel3,novel4,novel5,novel6,novel7,novel8]}
+            {"novel" : [novel1,novel2,novel3,novel4,novel5]}
         ]
 
         for(let j = 1; j <= all[0].novel.length; j++){

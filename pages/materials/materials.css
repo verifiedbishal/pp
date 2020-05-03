@@ -125,7 +125,7 @@
 .buffer__box--single h2{
     padding: 5px 0;
     font-size: 24px;
-    color: #0D219F;
+    color: #f04e25;
     letter-spacing: 1px;
 }
 .buffer__box--single h2 span{
@@ -148,6 +148,7 @@
 }
 .buffer__box--single ul li a:hover{
     text-decoration: underline;
+    color: #0e2b69;
 }
 
 @media(max-width : 1200px){
