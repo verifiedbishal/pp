@@ -90,6 +90,7 @@ button{
 header{
     position: fixed;
     width: 100%;
+    z-index: 500;
 }
 .header__box{
     border-bottom: 1px solid #ebebeb;
@@ -343,7 +344,7 @@ header{
     text-align: center;
     line-height: 2;
     margin-bottom: 10px;
-    height: 140px;
+    height: auto;
     overflow: hidden;
 }
 
