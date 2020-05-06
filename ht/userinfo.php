@@ -11,9 +11,9 @@ $errors = array();
 $_SESSION['success'] = "";
 
 // Database Variable Declaration
-$servername = "localhost";
-$username = "userinfo";
-$password = "";
+$servername = "sql113.epizy.com";
+$username = "epiz_25490437";
+$password = "mXGa0VKKIOk";
 
 // Create connection
 $db = mysqli_connect($servername, 'root', '', $username);   
@@ -45,7 +45,7 @@ if (isset($_POST['in'])) {
             $_SESSION['name'] = $name;
             $_SESSION['success'] = "You are now logged in";
             echo 'You are now logged in.';
-            header('location: http://bishal-shrestha.com.np/');
+            header('location: http://bishal-shrestha.com.np/resources/');
         }
 }
 ?>
