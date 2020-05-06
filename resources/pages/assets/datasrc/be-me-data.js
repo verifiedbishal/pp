@@ -18,12 +18,25 @@ let data = [
         ]
     },
     {
+        "heading" : "Aritficial Intelligence",
+        "innerdata" : [
+            ["Artificial Intelligence All Chapters",""],
+            ["Artficial Intelligence Notes - Suraj Awal",""]
+        ]
+    },
+    {
         "heading" : "Basic Electrical Engineering",
         "innerdata" : [
             ["A Text Book of Electrical Technology Vol 1","https://drive.google.com/file/d/1XoiViAlRc46iMzxRIkGQ-WjJ83kQ9fVx"],
             ["A Text Book of Electrical Technology Vol 2","https://drive.google.com/file/d/14vV9TrCnRum1ou3I0vEda1jwJTzyaMoT"],
             ["A Text Book of Electrical Technology Vol 3","https://drive.google.com/file/d/1eA5ZkUZEYUNi3ql7JSTu8CQ36EOhZT6m"],
             ["A Text Book of Electrical Technology Vol 4","https://drive.google.com/file/d/1XUJjRQdMj57MXhy2LFiphP2B6CWnB368/view"]
+        ]
+    },
+    {
+        "heading" : "Biomedical Instrumentation",
+        "innerdata" : [
+            ["Introduction To Medical Electronics Applications","https://drive.google.com/open?id=1MLvr-E9JPZ7rdBHiD5-VzwWO3p1nDP3B"]
         ]
     },
     {
@@ -35,6 +48,16 @@ let data = [
             ["The C Programming Language","https://drive.google.com/open?id=1aqqCMkGIHyjFVL2PGDvXb8K8GTEI7dbL"],
             ["Theoritical Introduction To Programming","https://drive.google.com/open?id=1xXnwCtGiADMKzn1TrJy9q9MgMMw1yP-Q"],
             ["C How To Program","https://drive.google.com/open?id=11S9jfVAZ2ozhQH6yStqSw8BbfapjoAQ1"]
+        ]
+    },
+    {
+        "heading" : "Communication System II",
+        "innerdata" : [
+            ["Communication Systems Engineering","https://drive.google.com/open?id=14Sx4VSYqf5c-90pPWOhzOyGY-8Ve4UrQ"],
+            ["Communication System II Lecture Notes","https://drive.google.com/open?id=1_iFcdJm5Yz79CmI0vU4QeX1k2y3q9Tm2"],
+            ["Digital & Analog Communication Systems - Couch","https://drive.google.com/open?id=1Adl3RjxBU2t6FNKzy5mJ3N6DEQmK7pww"],
+            ["Digital Communications Fall Utah","https://drive.google.com/open?id=1G0Y0xWv49K-tuMRQndpN7mWx-EvLXqx0"],
+            ["Modern Digital & Analog Communications Systems","https://drive.google.com/open?id=1jcLbx4EcnqObjRvKw-BXIR0DQkFj-xVX"]
         ]
     },
     {
@@ -80,11 +103,30 @@ let data = [
         ]
     },
     {
+        "heading" : "Database Management System",
+        "innerdata" : [
+            ["Database Systems Concepts 5th Ed (RAR)","https://drive.google.com/open?id=1AvpxtAFr5NzK2U5FFFGkxUpzOPw_84s8"],
+            ["Fundamentals Of Database Systems","https://drive.google.com/open?id=1S2JIz5BaXPPdnLA89kSnSlq8xh6wVojL"]
+        ]
+    },
+    {
+        "heading" : "Data Mining",
+        "innerdata" : [
+            ["All Chapters (RAR)","https://drive.google.com/open?id=10oonZWEc7yHffWv2BZkvQz0VHNlEqiC6"]
+        ]
+    },
+    {
         "heading" : "Digital Logic",
         "innerdata" : [
             ["Digital Design - Morris Mano","https://drive.google.com/open?id=1xC9DI1nQO05jsECza8lGN4jz76rux891"],
             ["Fundamentals Of Digital Electroinics","https://drive.google.com/open?id=1RnvHD_uKcUY3sJkQ4E-u5HjLg_m2SOzy"],
             ["Lecture Notes For Digital Electronics","https://drive.google.com/open?id=1jgE4FtzOWWYWiN-ilgyPPdjFPVmhZulz"]
+        ]
+    },
+    {
+        "heading" : "Digital Signal Processing",
+        "innerdata" : [
+            ["DSP Alll Chapters - Madhav Pandey","https://drive.google.com/open?id=1EQM7GvPSejQ7yoS7cRHm7_8t3o8vgYGJ"]
         ]
     },
     {
@@ -126,6 +168,14 @@ let data = [
         ]
     },
     {
+        "heading" : "Energy Environment And Management",
+        "innerdata" : [
+            ["Energy - Suman Sedhai","https://drive.google.com/open?id=1uirj2mJ2CmPoLwHbt_w8sp6Np6_gB65b"],
+            ["Renewable Energy Sources (RAR)","https://drive.google.com/open?id=14ZFKg8unSehokPVnr4tGDHDD8OpNWmBd"],
+            ["TES Notes - Dr. K.N. Dulal","https://drive.google.com/open?id=1oKHGHTwT-ZNJPxkq0jgpnnf_3hCFPbDQ"]
+        ]
+    },
+    {
         "heading" : "Engineering Economics",
         "innerdata" : [
             ["Engineering Economics","https://drive.google.com/open?id=1RfBgu_QcDdEz3NPmk-KCZGkdMmOXQEaE"],
@@ -139,6 +189,26 @@ let data = [
         "innerdata" : [
             ["Engineering Chemistry","https://drive.google.com/open?id=1deobg9Q-UNcBsEtIe7d-fZh9rOJSD8vw"],
             ["Engineering Chemistry All Chapters","https://drive.google.com/open?id=1NS0W3rSE7YBjGKg9INpinhU0B1ymI2lD"]
+        ]
+    },
+    {
+        "heading" : "Filter Design",
+        "innerdata" : [
+            ["Analog Filter - Kendall L. Su.","https://drive.google.com/open?id=1s7m8gf0u37VEC8MZIJ8VGnkNVKrcTMZ3"],
+            ["Chen W.K. Passive, Active  And Digital Filters","https://drive.google.com/open?id=1M9BkgVkQZtP51ibhL9LzH1ZkS2LyF-En"],
+            ["Design Of Analog Filter","https://drive.google.com/open?id=1w3WBu08uIWR-D_2MwXdMs1W9jgc5My76"],
+            ["Filter Design Complete Notes","https://drive.google.com/open?id=1-fQEGvey26NAStM_MrqolBHAcBDArMX8"]
+        ]
+    },
+    {
+        "heading" : "Image Processing",
+        "innerdata" : [
+            ["Book Gonzalez And Wood","https://drive.google.com/open?id=1Ru_dmOdXQ7BX8HTD8_0Jeyozp1bYVrv-"],
+            ["DIP Applications","https://drive.google.com/open?id=13pb8rKxjIz3xkUXNTSZbW5UuHotX_u0z"],
+            ["Example Code For Digital Image Processing","https://drive.google.com/open?id=1djHKqAYtnrPAVHocvZY1DZzmEZc653ug"],
+            ["Fundamentals Of DIP","https://drive.google.com/open?id=13P0tqUYPGTERRhZiDa1TnEKFA_IziDQM"],
+            ["Fundamentals Of Image Processing","https://drive.google.com/open?id=113FIv6GjV9w9FE1-c5yX3AF_v9XePN1q"],
+            ["Pattern Recognition And Image Processing","https://drive.google.com/open?id=1efbB55bSTA7vxY72X7ccFMV7ZegPXbQE"]
         ]
     },
     {
@@ -162,10 +232,25 @@ let data = [
         ]
     },
     {
+        "heading" : "Organization And Management",
+        "innerdata" : [
+            ["Organization And Management - Complete Notes","https://drive.google.com/open?id=1lMvOBI548iAEe4_anbPnWOHjKlBX6YNq"]
+        ]
+    },
+    {
         "heading" : "Probability & Statistics",
         "innerdata" : [
             ["Probability & Random Processes","https://drive.google.com/open?id=1x4_kEPMAvR_0BsWeTcepnDpkavt4a6jP"],
             ["Probability & Statistics For Engineers","https://drive.google.com/open?id=1NanQgWYMhlVXuMASFHXsnRJNyV2IaTEV"]
+        ]
+    },
+    {
+        "heading" : "Project Management",
+        "innerdata" : [
+            ["A Project Management Primer","https://drive.google.com/open?id=1kb333YfHInFxQCti1yXrgVPTFpwzVY7f"],
+            ["Project Management All Chapters PPT","https://drive.google.com/open?id=1U-lPtTmgkfCwHQ-rE9Z1c3cnR9OBEQK6"],
+            ["Project Management Guidebook","https://drive.google.com/open?id=1b0942SEsvQ1Igrx_JVGbPNtLwsW6GxFU"],
+            ["Project Management Made Easy","https://drive.google.com/open?id=1JKvokEFiQeAEtGxPZv8q0vYB7v1mFHM-"]
         ]
     },
     {
@@ -182,6 +267,12 @@ let data = [
         ]
     },
     {
+        "heading" : "RF And Microwave Engineering",
+        "innerdata" : [
+            ["Microwave Engineering","https://drive.google.com/open?id=1um2LqgDlzRcBG_I4fE2H3q04jXTM-ZkK"]
+        ]
+    },
+    {
         "heading" : "Signal Analysis",
         "innerdata" : [
             ["Discrete-Time Signal Processing - Oppenheim","https://drive.google.com/open?id=1IOD6mgDR9JeP5MdVgrMGtWq_lRblWyWX"],
@@ -195,12 +286,27 @@ let data = [
         ]
     },
     {
+        "heading" : "Telecommunications",
+        "innerdata" : [
+            ["Bellamy - Digital Telephony","https://drive.google.com/open?id=11Ap0-NB0NHu-S8GH_RZExkQlJelwdc8P"],
+            ["Telecommunication All Chapters PPT","https://drive.google.com/open?id=1SA_AG-RdOvAbLhKFh-mcySs2z2rJBkC7"],
+            ["Telecommunication System Engineering","https://drive.google.com/open?id=1jDNGNiy_mPq-dpUERAxqwTeyWPLOcDZ7"],
+            ["Telecommunication All Chapters","https://drive.google.com/open?id=1B3FNDQXQPZYxWj3gZM2oFVIpSCM9lHS8"]
+        ]
+    },
+    {
         "heading" : "Thermodynamics",
         "innerdata" : [
             ["Heat Transfer - A Practical Approach","https://drive.google.com/open?id=1to07gF31s2rPSxKUWJkBPgnWA83cpHUC"],
             ["Thermodynamics By Yunus And Michael","https://drive.google.com/open?id=1qPebXWbOxWNrduhrH3cpEOKUhvBWe6Sn"]
         ]
-    }
+    },
+    {
+        "heading" : "Wireless Communication",
+        "innerdata" : [
+            ["Wireless Communication All Chapters (RAR)","https://drive.google.com/open?id=10XzetzDzbdidxYG4GSp5DKnX_XO77fyJ"]
+        ]
+    },
 ]
 
 
