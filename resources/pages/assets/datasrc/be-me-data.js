@@ -3,12 +3,12 @@ let data = [
     {
         "heading" : "SYLLABUS",
         "innerdata" :[
-            ["BCT All",""],
-            ["BCE All",""],
-            ["BEX All",""],
-            ["BME All",""],
-            ["BAG All",""],
-            ["B. Arch All",""]
+            ["BCT","https://drive.google.com/open?id=1Y-W7wDvFCjhnTP5JNncTMjN1S2bD1Vuz"],
+            ["BCT All (RAR)","https://drive.google.com/open?id=1N7B619iFn5lhadnR9-WrNyDWYhvFb-_I"],
+            ["BCE","https://drive.google.com/open?id=1h_ZBhYbWNEke1pdDkdsR4vUzNRCDN27Y"],
+            ["BCE ALl (RAR)","https://drive.google.com/open?id=1jmBn0DH23H7sVqeaW4-ubqsCjtdMZxoj"],
+            ["BEX","https://drive.google.com/open?id=1VnXL5XCayB0LWJNDt4Nbqlvwfrq-4i3X"],
+            ["BEX All (RAR)","https://drive.google.com/open?id=1U9qQ2xHNy5BkjTcnsfxK6o-Xfij6RHV6"]
         ]
     },
     {

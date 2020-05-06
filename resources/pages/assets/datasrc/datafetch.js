@@ -21,7 +21,7 @@ for(let j = 1; j <= data.length; j++){
     var idAll = document.getElementById("myD" + j);
     for(let k = 0; k < data[j - 1].innerdata.length ; k++){
         var el2 = document.createElement("li");
-        el2.innerHTML = '<a href = \"'  + data[j - 1].innerdata[k][1] + ' \">' + data[j - 1].innerdata[k][0] + '</a>';
+        el2.innerHTML = '<a href = \"'  + data[j - 1].innerdata[k][1] + ' \" target=\"_blank\">' + data[j - 1].innerdata[k][0] + '</a>';
         idAll.appendChild(el2);
     }
     count+=data[j-1].innerdata.length;
