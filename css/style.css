@@ -118,6 +118,11 @@ header{
 .header__left--top h1 a:hover{
     text-decoration: underline;
 }
+.header__left--bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header__left--bottom span{
     padding: 0 10px;
     font-size: 14px;
@@ -188,6 +193,28 @@ header{
         background-color: transparent;
     }
 }
+@media(max-width : 420px){
+    .header__left{
+        padding: 5px;
+    }
+    .header__left--top h1 a{
+        font-size: 18px;
+    }
+    .header__left--bottom span{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media(max-width : 390px){
+    .header__right .header__right--links ul li{
+        margin: 0;
+    }
+}
+@media(max-width : 370px){
+    .header__left--bottom{
+        display: none;
+    }
+}
 
 
 
@@ -216,12 +243,13 @@ header{
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 10%;
+    text-align: center;
 }
 .main__head h2{
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 1px;
-    text-align: left;
+    text-align: center;
     line-height: 2;
 }
 .main__head h2 span{
@@ -275,6 +303,31 @@ header{
     }
     .main__head h2{
         font-size: 50px;
+    }
+}
+@media(max-width: 550px){
+    .main__box{
+        width: 94%;
+        margin: 0 3%;
+    }
+    .main__head h2{
+        font-size: 40px;
+    }
+    .main__arrow{
+        padding: 14px 24px;
+        border-radius: 44px;
+    }
+    .main__arrow a i{
+        font-size: 34px;
+    }
+}
+@media(max-width: 330px){
+    .main__head h2{
+        font-size: 30px;
+    }
+    .main__box{
+        width: 98%;
+        margin: 0 1%;
     }
 }
 
