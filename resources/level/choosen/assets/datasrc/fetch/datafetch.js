@@ -4,7 +4,7 @@ let count  =0;
 var countSub = document.getElementById("countSubject");
 countSub.innerHTML = data.length + ` Topics`;
 var countDetails = document.getElementById("countDetails");
-countDetails.innerHTML = `It\'s nice to share.`;
+countDetails.innerHTML = `Sharing is caring !`;
 for(let j = 1; j <= data.length; j++){
     //Create a div element with id=myD + j
     var idhere = document.getElementById("feedhere");
@@ -27,4 +27,4 @@ for(let j = 1; j <= data.length; j++){
     count+=data[j-1].innerdata.length;
 }
 var countFiles = document.getElementById("countFiles");
-countFiles.innerHTML = count + ` Digital Files Collections`;
+countFiles.innerHTML = count + ` Digital Files In This Page`;
