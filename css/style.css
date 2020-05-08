@@ -236,7 +236,7 @@ header{
     align-items: center;
     border: 1px solid transparent;
     padding: 10px;
-    width: 50%;
+    width: 70%;
     margin: 0 25%;
 }
 .main__head{
@@ -258,7 +258,7 @@ header{
     font-weight: 600;
 }
 .main__head p{
-    text-align: left;
+    text-align: center;
     width: 100%;
     line-height: 2;
 }
@@ -305,6 +305,9 @@ header{
     }
     .main__head h2{
         font-size: 50px;
+    }
+    .section__main{
+        height: 70vh;
     }
 }
 @media(max-width: 550px){
