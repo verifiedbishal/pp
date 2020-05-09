@@ -553,7 +553,7 @@ span.new{
     text-align: center;
     line-height: 2;
     margin-bottom: 10px;
-    height: auto;
+    height: 200px;
     overflow: hidden;
 }
 
