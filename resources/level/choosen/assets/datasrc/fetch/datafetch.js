@@ -5,6 +5,8 @@ var countSub = document.getElementById("countSubject");
 countSub.innerHTML = data.length + ` Topics`;
 var countDetails = document.getElementById("countDetails");
 countDetails.innerHTML = `Sharing is caring !`;
+var countMail = document.getElementById("countMail");
+countMail.innerHTML = `<a href=\"mailto:verifiedbishal@gmail.com?subject=Send Resources\">Mail Us The Resources<\/a>`;
 for(let j = 1; j <= data.length; j++){
     //Create a div element with id=myD + j
     var idhere = document.getElementById("feedhere");
