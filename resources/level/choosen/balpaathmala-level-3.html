@@ -6,9 +6,8 @@
     <title>Bishal Shrestha - Portfolio</title>
     <script src="https://kit.fontawesome.com/074632e90d.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../resources.css">
-    <link rel="stylesheet" href="level.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../resources.css">
 </head>
 <body>
 
@@ -17,7 +16,7 @@
             <div class="header__box">
                 <div class="header__box--single header__left">
                     <div class="header__left--top">
-                        <h1><a href="../../index.html">Bishal Shrestha</a></h1>
+                        <h1><a href="../../../index.html">Bishal Shrestha</a></h1>
                     </div>
                     <div class="header__left--bottom">
                         <span>Web Designer & Maths Teacher</span>
@@ -27,7 +26,7 @@
                     <div class="header__right--links">
                         <ul>
                             <li><a href="https://medium.com/@verifiedbishal">Blog</a></li>
-                            <li><a href="../resources.html">Resources</a></li>
+                            <li><a href="../../resources.html">Resources</a></li>
                         </ul>
                     </div>
                 </div>
@@ -36,31 +35,27 @@
     </header>
     
 
-    <section class="choose__level">
-        <div class="level">
-            <h2 class="color__main">Choose Your Level</h2>
-            <div class="level__box">
-                <ul class="level__tag">
-                    <li><a href="choosen/bachelor-be.html"><span>Bachelor in Engineering</span> <i class="fas fa-chevron-right"></i></a></li>
-                    <li><a href="choosen/bachelor-bsc.html"><span>BSc. Physics</span> <i class="fas fa-chevron-right"></i></a></li>
-                    <li><a href="choosen/bachelor-btech.html"><span>B. Tech.</span> <i class="fas fa-chevron-right"></i></a></li>
+    <!-- The main section of the feed -->
+
+
+    <section class="direct">
+        <div class="direct__box">
+            <div class="direct__head">
+                <h1>BalPaathmala</h1>
+                <ul>
+                    <li><a href="balpaathmala-level-1.html" class="">Level 1</a></li>
+                    <li><a href="balpaathmala-level-2.html" class="">Level 2</a></li>
+                    <li><a href="balpaathmala-level-3.html" class="directActive">Level 3</a></li>
+                </ul>
+            </div>
+            <div class="direct__list">
+                <ul id="directList" class="directList3">
+
                 </ul>
             </div>
         </div>
-        <div class="recommendation">
-            <h2>Direct download</h2>
-            <ul>
-                <li><a href="recent/ebooks/Speedy Maths 9.pdf">Speedy Maths 9</a></li>
-                <li><a href="recent/ebooks/Speedy Maths 10.pdf">Speedy Maths 10</a></li>
-                <li><a href="recent/ebooks/Science Course Book.pdf">Science Course Book (Khullakitab Courtesy)</a></li>
-                <li><a href="recent/ebooks/Siddhartha.pdf">Siddhartha</a></li>
-                <li><a href="recent/ebooks/Learning C by Examples.pdf">Learning C By Examples</a></li>
-                <li><a href="recent/ebooks/Learn Python The Hard Way 3rd Edition V413HAV.pdf">Learning Python The Hard Way</a></li>
-                <li><a href="recent/ebooks/Eloquent_JavaScript-3rd Ed.pdf">Eloquent JavaScript</a></li>
-            </ul>
-        </div>
     </section>
-
+    
 
     <footer class="footer__top">
         <div class="footer__content">
@@ -76,9 +71,9 @@
             <div class="footer__links">
                 <ul>
                     <li><a href="https://medium.com/@verifiedbishal">Medium</a></li>
-                    <li><a href="../resources.html">Resources</a></li>
+                    <li><a href="../../resources.html">Resources</a></li>
                     <li><a href="https://m.me/bishal.shrestha.1800">Messenger</a></li>
-                    <li><a href="../../timeline/timeline.html">Timeline</a></li>
+                    <li><a href="../../../timeline/timeline.html">Timeline</a></li>
                 </ul>
                 <ul>
                     <li>Created with love by : <span><a href="https://twitter.com/CodersUnderdogs"  class="color__main">@CodersUnderdogs [ME]</a></span></li>
@@ -86,6 +81,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="assets/datasrc/balpaathmala-level-3-data.js"></script>
+    <script src="assets/datasrc/fetch/datafetch-direct.js"></script>
+
+
 
     
 </body>

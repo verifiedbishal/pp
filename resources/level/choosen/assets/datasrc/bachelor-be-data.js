@@ -218,6 +218,22 @@ let data = [
         ]
     },
     {
+        "heading" : "Multimedia System",
+        "innerdata" : [
+            ["Introduction - What Is Multimedia","https://drive.google.com/open?id=1BNibDv4rVS_Ke1vTxY33D5VE_SPWZSji"],
+            ["Sound and Audio System","https://drive.google.com/open?id=1wa7s2vtbqzpRFz9SprfxRgL3u2nhQIfv"],
+            ["Image Graphics","https://drive.google.com/open?id=1iJOOQh38McTqTGlkUJKbIvwb1HJMiNwv"],
+            ["Video Animation","https://drive.google.com/open?id=1YGx4tT2btfCqaAFaS5uZv9DgTQhI6jJY"],
+            ["Data Compression","https://drive.google.com/open?id=1FwzEdL-2kgWFvk1t9JORZwKfEkPrdeLC"],
+            ["User Interfaces","https://drive.google.com/open?id=1Tj0dStS0vtZE9PN6cFcHbUfmml4Kgfb1"],
+            ["User Interface Design","https://drive.google.com/open?id=1I3ICPpQH6WODbx5ssAhHJa89zVbOgJNL"],
+            ["Abstraction for Programming","https://drive.google.com/open?id=1sPeGggbUAYFwOM2l25j0LqD3o9ElQDO5"],
+            ["Multimedia System Application","https://drive.google.com/open?id=1VDW55aUFfV_hAPOEbzT-0LNjiAOMbk0o"],
+            ["Multimedia Hardware","https://drive.google.com/open?id=1b8Mf4V1H6ROgJrY5GsuVlme62hJab60k"],
+            ["All Chapters (RAR)","https://drive.google.com/open?id=1QbrlDW40fxPGS4INwczdUcRfrg0LAoHb"]
+        ]
+    },
+    {
         "heading" : "Numerical Methods",
         "innerdata" : [
             ["Applied Numerical Methods","https://drive.google.com/open?id=1aeHMTQCcDBD8j841b3X6SSSpVFvx8Dse"]
