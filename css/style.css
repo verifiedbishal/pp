@@ -221,11 +221,12 @@ header{
 
 /* Main Intro Design */
 .section__main{
-    height: 100vh;
+    padding-top: 200px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10%;
     background: #e9f6f9;
     background: #fff;
 }
@@ -236,14 +237,13 @@ header{
     align-items: center;
     border: 1px solid transparent;
     padding: 10px;
-    width: 70%;
-    margin: 0 25%;
+    width: 80%;
+    margin: 0 10%;
 }
 .main__head{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     margin-bottom: 10%;
     text-align: center;
 }
@@ -299,6 +299,9 @@ header{
     }
 }
 @media(max-width: 700px){
+    .section__main{
+        padding-top: 150px;
+    }
     .main__box{
         width: 94%;
         margin: 0 3%;
@@ -307,7 +310,8 @@ header{
         font-size: 50px;
     }
     .section__main{
-        height: 70vh;
+        height: auto;
+        padding-bottom: 0;
     }
 }
 @media(max-width: 550px){
@@ -319,11 +323,11 @@ header{
         font-size: 40px;
     }
     .main__arrow{
-        padding: 14px 24px;
+        padding: 12px 20px;
         border-radius: 44px;
     }
     .main__arrow a i{
-        font-size: 34px;
+        font-size: 26px;
     }
 }
 @media(max-width: 330px){
@@ -432,6 +436,7 @@ span.new{
 @media(max-width:560px){
     .article__box--single{
         width: 98%;
+        padding: 0;
         margin: 20px 1%;
     }
     .article__head h2{
@@ -554,9 +559,9 @@ span.new{
 
 @media(max-width : 600px){
     .work__content--single{
-        width: 90%;
+        width: 96%;
         height: auto;
-        margin: 10px 5%;
+        margin: 10px 2%;
         background-color: #fff;
         border-top-left-radius: 0px;
         border-bottom-right-radius: 0px;
